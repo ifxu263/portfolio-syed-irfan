@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Syed Irfan | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <h1>SYED IRFAN </h1>
+
+  <div class="right-controls">
+    <label class="switch">
+      <input type="checkbox" id="theme-toggle">
+      <span class="slider"></span>
+    </label>
+
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  </div>
+
+  <nav id="nav">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+
+    <img src="assets/mypic.png" class="profile-img">
+
+    <h1>Hello, I'm <span>Syed Irfan</span></h1>
+    <h2>Associate Software Engineer</h2>
+    <h3><span id="typing"></span></h3>
+
+    <div class="hero-buttons">
+      <a href="#projects" class="btn">View Work</a>
+      <a href="assets/Syed_resume_2026.pdf" class="btn" download>Resume</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" data-aos="fade-up">
+
+  <h2 data-aos="zoom-in">About Me</h2>
+
+  <p class="section-copy" data-aos="fade-up" data-aos-delay="200">
+    I am a passionate Computer Science student currently pursuing my degree from 
+    <b>MGM's College of Computer Science & IT</b> with a strong academic record and <b>zero backlogs</b>.  
+
+    I have a solid foundation in <b>Java, Python, SQL, and Full Stack Development</b>, 
+    gained through both academic learning and hands-on projects.  
+
+    During my college journey, I have developed real-world projects such as 
+    <b>job portals, AI-based systems, and automation tools</b>, strengthening my 
+    problem-solving skills.  
+
+    I am eager to start my career as an <b>Associate Software Engineer</b> and build 
+    scalable applications.
+  </p>
+
+</section>
+
+<!-- SKILLS -->
+<section id="skills" data-aos="fade-up">
+  <h2>Skills</h2>
+
+  <div class="skills">
+
+    <div class="skill-group">
+      <h4>Languages</h4>
+      <span>Java</span>
+      <span>Python</span>
+      <span>C++</span>
+    </div>
+
+    <div class="skill-group">
+      <h4>Web</h4>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>React JS</span>
+      <span>Node js</span>
+      <span>REST API Development</span>
+      <span>Express JS</span>
+    </div>
+
+    <div class="skill-group">
+      <h4>Database</h4>
+      <span>SQL</span>
+      <span>MongoDB</span>
+      <span>RDBMS</span>
+    </div>
+
+    <div class="skill-group">
+      <h4>Concepts</h4>
+      <span>OOP</span>
+      <span>DSA</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="projects">
+
+    <div class="card project-card">
+      <div class="project-content">
+        <h3>Work-X Job Portal</h3>
+        <p>Full-stack job portal with REST APIs and authentication.</p>
+        <div class="project-links">
+          <a href="https://github.com/ifxu263/WORK-X">View Code →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card project-card">
+      <div class="project-content">
+        <h3>AI Voting System</h3>
+        <p>Secure voting system with facial recognition.</p>
+        <div class="project-links">
+          <a href="https://github.com/ifxu263/AI-Voting-System">View Code →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card project-card">
+      <div class="project-content">
+        <h3>Phishing Detection</h3>
+        <p>ML model detecting malicious URLs.</p>
+        <div class="project-links">
+          <a href="https://github.com/ifxu263/Phishing-Detection-System">View Code →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card project-card">
+      <div class="project-content">
+        <h3>Jarvis AI Assistant</h3>
+        <p>Voice-controlled automation assistant.</p>
+        <div class="project-links">
+          <a href="https://github.com/ifxu263/jarvis-ai">View Code →</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact</h2>
+
+  <div class="contact-box">
+
+    <a href="mailto:sayyedirfaan263@gmail.com" class="contact-item">
+      <i class="fas fa-envelope"></i>
+      <span>Email</span>
+    </a>
+
+    <a href="https://github.com/ifxu263" target="_blank" class="contact-item">
+      <i class="fab fa-github"></i>
+      <span>GitHub</span>
+    </a>
+
+    <a href="https://linkedin.com/in/ifxu" target="_blank" class="contact-item">
+      <i class="fab fa-linkedin"></i>
+      <span>LinkedIn</span>
+    </a>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Syed Irfan</p>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init();</script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
